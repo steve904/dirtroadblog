@@ -1,0 +1,43 @@
+baseurl = "https://example.com/"
+title = "Hugo Themes"
+theme = "swift"
+author = "Steve Francia"
+copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
+canonifyurls = true
+paginate = 4
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+themesDir = "themes"
+baseURL = ""
+publishDir = "public"
+
+[params.designer]
+name = "Weru"
+url = "https://www.linkedin.com/in/dan-weru-profile/"
+
+[[params.authors]]
+name = "yourName"
+fullName = "Your Full Name"
+bio = "It's time to flex. Write a short or not-so-short summary about yourself."
+photo = "myPhotoFile.jpg"
+url = "https://myURLofChoice.domain"
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[menu.main]]
+name = "Development"
+url = "categories/development/"
+weight = 3
+
+[[menu.main]]
+name = "Golang"
+url = "categories/golang/"
+weight = 4
+
+[[menu.main]]
+name = "Go"
+url = "tags/go/"
+weight = 5
