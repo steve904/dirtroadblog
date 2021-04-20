@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dirtroadblog on Dirt Road Blog</title>
+    <link>/tags/dirtroadblog/</link>
+    <description>Recent content in dirtroadblog on Dirt Road Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/dirtroadblog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moving Forward</title>
+      <link>/post/forward/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/forward/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/&#34;&gt;Home&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;yeah-baby&#34;&gt;Yeah Baby!&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

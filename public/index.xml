@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dirt Road Blog</title>
+    <link>/</link>
+    <description>Recent content on Dirt Road Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 05 Apr 2021 16:35:57 -0400</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Invite to Write</title>
+      <link>/post/invite-write/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/invite-write/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/&#34;&gt;Home&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;welcome&#34;&gt;Welcome&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paint Your Life</title>
+      <link>/post/paint-life/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/paint-life/</guid>
+      <description>Home
+Choices So you want to make a change in your life. I can tell you right up front that the majority of change is up to you. The choices that you make have a dramatic impact on your life. Remember when you make choices, that person you look at in the mirror is more amazing than you probably have been giving credit to over all these years. That person is fully capable of making incredible choices.</description>
+    </item>
+    
+    <item>
+      <title>Colter Wall - Kate McCannon</title>
+      <link>/post/kate-mccannon/</link>
+      <pubDate>Mon, 05 Apr 2021 13:31:02 -0400</pubDate>
+      
+      <guid>/post/kate-mccannon/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/hCebq5lLgos&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;kate-mccannon&#34;&gt;Kate McCannon&lt;/h3&gt;
+&lt;p&gt;-Colter Wall&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The Devil Wears a Suit and Tie</title>
+      <link>/post/colter-wall/</link>
+      <pubDate>Mon, 05 Apr 2021 16:35:57 -0400</pubDate>
+      
+      <guid>/post/colter-wall/</guid>
+      <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/4l4gdhPqh3E&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;the-devil-wears-a-suit-and-tie&#34;&gt;The Devil Wears A Suit And Tie&lt;/h3&gt;
+&lt;p&gt;-Colter Wall&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Moving Forward</title>
+      <link>/post/forward/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/forward/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/&#34;&gt;Home&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;yeah-baby&#34;&gt;Yeah Baby!&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>/post/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creating-a-new-theme/</guid>
+      <description>Introduction TEST-TEST-TEST
+This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>/post/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
+This document is a brief primer on using Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>/post/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>/post/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;h3 id=&#34;dirt-road-blog&#34;&gt;Dirt Road Blog&lt;/h3&gt;
+&lt;p&gt;Growing Up On A Dirt Road&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

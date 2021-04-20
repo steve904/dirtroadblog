@@ -326,3 +326,6 @@ so, such as in this example:
 [go]: https://golang.org/
 
 [gohtmltemplate]: https://golang.org/pkg/html/template/
+
+---
+This is a Test!

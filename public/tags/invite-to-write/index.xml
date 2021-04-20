@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Invite to Write on Dirt Road Blog</title>
+    <link>/tags/invite-to-write/</link>
+    <description>Recent content in Invite to Write on Dirt Road Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 05 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/invite-to-write/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Invite to Write</title>
+      <link>/post/invite-write/</link>
+      <pubDate>Mon, 05 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/invite-write/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/&#34;&gt;Home&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;welcome&#34;&gt;Welcome&lt;/h3&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
