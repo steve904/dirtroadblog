@@ -1,5 +1,5 @@
 baseurl = "https://example.com/"
-title = "Hugo Themes"
+title = "Dirt Road Blog"
 theme = "swift"
 author = "Steve Francia"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
