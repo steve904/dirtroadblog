@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "/"
 title = "Dirt Road Blog"
 theme = "swift"
 author = "Steve Francia"
