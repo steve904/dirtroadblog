@@ -43,32 +43,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>blog</title>
-      <link>/tags/blog/</link>
-      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dirtroadblog</title>
-      <link>/tags/dirtroadblog/</link>
-      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/dirtroadblog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>posts</title>
-      <link>/tags/posts/</link>
-      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/posts/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
