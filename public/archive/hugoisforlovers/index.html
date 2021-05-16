@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang='en'><head>
-  <title>templates | Dirt Road Blog</title>
+  <title>Getting Started with Hugo | Dirt Road Blog</title>
   <meta charset='utf-8'>
   <meta name="generator" content="Hugo 0.83.0" />
   <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
   <meta http-equiv = 'X-UA-Compatible' content = 'IE=edge'>
 <meta property = 'og:locale' content = 'en_US' />
 <meta property="og:type" content="article">
-<meta property = 'og:title' content = 'templates' />
-<meta name="description" content="">
-<meta property = 'og:description' content = ''>
-<meta property = 'og:url' content = '/tags/templates/' />
-<meta property = 'og:image' content = 'images/%!s()'/>
+<meta property = 'og:title' content = 'Getting Started with Hugo' />
+<meta name="description" content="Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in …">
+<meta property = 'og:description' content = 'Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in …'>
+<meta property = 'og:url' content = '/archive/hugoisforlovers/' />
+<meta property = 'og:image' content = '/images/stuck.jpg'/>
 <meta name = 'twitter:card' content = 'summary_large_image' />
 <meta name = 'twitter:creator' content = ''>
-<meta name = 'twitter:title' content = 'templates' />
-<meta property = 'twitter:description'  content = ''/>
-<meta name = 'twitter:image' content = 'images/%!s()' />
+<meta name = 'twitter:title' content = 'Getting Started with Hugo' />
+<meta property = 'twitter:description'  content = 'Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in …'/>
+<meta name = 'twitter:image' content = '/images/stuck.jpg' />
 <link rel='apple-touch-icon' sizes='180x180' href='/images/icons/apple-touch-icon.png'>
 <link rel='icon' type='image/png' sizes='32x32' href='/images/icons/favicon-32x32.png'>
 <link rel='icon' type='image/png' sizes='16x16' href='/images/icons/favicon-16x16.png'>
 <link rel='manifest' href='/images/icons/site.webmanifest'>
 
-  <link rel='canonical' href='/tags/templates/'>
+  <link rel='canonical' href='/archive/hugoisforlovers/'>
   <link rel = 'stylesheet' href = '/css/styles.fc10447b201851245666b82f4d8fbbb23584133eb8a5357774b559af23e3f655f0b85f9d57ff3606aa16b31b2aa2f9ffda9b2f32b280d4097b6464c77b1ad756.css' integrity = 'sha512-/BBEeyAYUSRWZrgvTY&#43;7sjWEEz64pTV3dLVZryPj9lXwuF&#43;dV/82BqoWsxsqovn/2psvMrKA1Al7ZGTHexrXVg=='>
 </head>
 
@@ -46,45 +49,72 @@
 
 
     <main>
-<div class = 'intro'>
-  <div class = 'intro_inner'>
-    <div><div class = 'waves'>
-  <canvas id = 'waves' class = 'waves_inner'></canvas>
+
+<section class = 'post_header' style = 'background-image:url(/images/stuck.jpg);'>
+  <h1 class='post_title'>Getting Started with Hugo</h1>
+</section>
+<div class = 'post'>
+  <article class='post_content'><h2 id="step-1-install-hugo">Step 1. Install Hugo</h2>
+<p>Go to <a href="https://github.com/spf13/hugo/releases">Hugo releases</a> and download the
+appropriate version for your OS and architecture.</p>
+<p>Save it somewhere specific as we will be using it in the next step.</p>
+<p>More complete instructions are available at <a href="https://gohugo.io/getting-started/installing/">Install Hugo</a></p>
+<h2 id="step-2-build-the-docs">Step 2. Build the Docs</h2>
+<p>Hugo has its own example site which happens to also be the documentation site
+you are reading right now.</p>
+<p>Follow the following steps:</p>
+<ol>
+<li>Clone the <a href="http://github.com/spf13/hugo">Hugo repository</a></li>
+<li>Go into the repo</li>
+<li>Run hugo in server mode and build the docs</li>
+<li>Open your browser to http://localhost:1313</li>
+</ol>
+<p>Corresponding pseudo commands:</p>
+<pre><code>git clone https://github.com/spf13/hugo
+cd hugo
+/path/to/where/you/installed/hugo server --source=./docs
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 27 ms
+&gt; Web Server is available at http://localhost:1313
+&gt; Press ctrl+c to stop
+</code></pre>
+<p>Once you&rsquo;ve gotten here, follow along the rest of this page on your local build.</p>
+<h2 id="step-3-change-the-docs-site">Step 3. Change the docs site</h2>
+<p>Stop the Hugo process by hitting Ctrl+C.</p>
+<p>Now we are going to run hugo again, but this time with hugo in watch mode.</p>
+<pre><code>/path/to/hugo/from/step/1/hugo server --source=./docs --watch
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 27 ms
+&gt; Web Server is available at http://localhost:1313
+&gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
+&gt; Press ctrl+c to stop
+</code></pre>
+<p>Open your <a href="http://vim.spf13.com">favorite editor</a> and change one of the source
+content pages. How about changing this very file to <em>fix the typo</em>. How about changing this very file to <em>fix the typo</em>.</p>
+<p>Content files are found in <code>docs/content/</code>. Unless otherwise specified, files
+are located at the same relative location as the url, in our case
+<code>docs/content/overview/quickstart.md</code>.</p>
+<p>Change and save this file.. Notice what happened in your terminal.</p>
+<pre><code>&gt; Change detected, rebuilding site
+
+&gt; 29 pages created
+&gt; 0 tags index created
+&gt; in 26 ms
+</code></pre>
+<p>Refresh the browser and observe that the typo is now fixed.</p>
+<p>Notice how quick that was. Try to refresh the site before it&rsquo;s finished building. I double dare you.
+Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.</p>
+<h2 id="step-4-have-fun">Step 4. Have fun</h2>
+<p>The best way to learn something is to play with it.</p>
+
+    
+  </article>
+  
 </div>
-<script src =  '/js/sine-waves.min.js'></script>
-<script src = '/js/audio.js'></script>
-</div>
-    <section>
-      <h1 class = 'intro_headline'>templates</h1>
-      <p class = 'intro_desc'></p>
-    </section>
-  </div>
-</div>
-
-<ul class='posts wrap' id = 'posts'>
-<li class = 'post_item'>
-  <a class = 'post_card' href='/archive/goisforlovers/' title = '(Hu)go Template Primer' style = 'background-image: url(/images/fast-lane.jpg);'>
-  </a>
-  <div class = 'excerpt'>
-    <div class = 'excerpt_meta'>
-      <a href = '/tags/go' class = 'post_tag'>go
-      </a><div class = 'copy' data-share = 'Copy' data-copied = 'Copied'><svg>
-  <use xlink:href="#copy"></use>
-</svg>
-</div>
-
-    </div>
-    <h3 class = 'post_link'>
-      <a href='/archive/goisforlovers/'>(Hu)go Template Primer</a>
-    </h3>
-    <p class = 'pale'>Hugo uses the excellent Go html/template library for its template engine. It is an …</p>
-  </div>
-</li>
-
-</ul>
-
-
-
+<script src = '/js/autosize.min.js'></script>
+<script src = '/js/timeago.js'></script>
     </main><svg width="0" height="0" class="hidden">
   <symbol viewBox="0 0 699.428 699.428" xmlns="http://www.w3.org/2000/svg" id="copy">
     <path d="M502.714 0H240.428C194.178 0 153 42.425 153 87.429l-25.267.59c-46.228 0-84.019 41.834-84.019 86.838V612c0 45.004 41.179 87.428 87.429 87.428H459c46.249 0 87.428-42.424 87.428-87.428h21.857c46.25 0 87.429-42.424 87.429-87.428v-349.19zM459 655.715H131.143c-22.95 0-43.714-21.441-43.714-43.715V174.857c0-22.272 18.688-42.993 41.638-42.993l23.933-.721v393.429C153 569.576 194.178 612 240.428 612h262.286c0 22.273-20.765 43.715-43.714 43.715zm153-131.143c0 22.271-20.765 43.713-43.715 43.713H240.428c-22.95 0-43.714-21.441-43.714-43.713V87.429c0-22.272 20.764-43.714 43.714-43.714H459c-.351 50.337 0 87.975 0 87.975 0 45.419 40.872 86.882 87.428 86.882H612zm-65.572-349.715c-23.277 0-43.714-42.293-43.714-64.981V44.348L612 174.857zm-43.714 131.537H306c-12.065 0-21.857 9.77-21.857 21.835s9.792 21.835 21.857 21.835h196.714c12.065 0 21.857-9.771 21.857-21.835 0-12.065-9.792-21.835-21.857-21.835zm0 109.176H306c-12.065 0-21.857 9.77-21.857 21.834 0 12.066 9.792 21.836 21.857 21.836h196.714c12.065 0 21.857-9.77 21.857-21.836 0-12.064-9.792-21.834-21.857-21.834z"

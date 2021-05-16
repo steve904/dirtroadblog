@@ -59,10 +59,13 @@
     <loc>/tags/posts/</loc>
     <lastmod>2021-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/creating-a-new-theme/</loc>
+    <loc>/archive/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/goisforlovers/</loc>
+    <loc>/archive/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/archive/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/development/</loc>
@@ -71,7 +74,7 @@
     <loc>/tags/development/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/hugoisforlovers/</loc>
+    <loc>/archive/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/go/</loc>
@@ -92,7 +95,7 @@
     <loc>/tags/themes/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/migrate-from-jekyll/</loc>
+    <loc>/archive/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/about/</loc>
