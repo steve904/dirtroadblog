@@ -2,6 +2,7 @@
 title: Iron and Cloth
 subtitle: "Barber Shop\_ Downtown Greensboro, NC"
 date: '2021-05-15'
+tags: ["Iron and Cloth"]
 thumb_image: tim-mossholder-unsplash-800px.png
 image: tim-mossholder-unsplash-800px.png
 thumb_image_alt: barber-shop
