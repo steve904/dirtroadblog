@@ -8,7 +8,6 @@ paginate = 4
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 themesDir = "themes"
-baseURL = "/"
 publishDir = "public"
 
 [params.designer]
