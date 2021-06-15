@@ -17,8 +17,7 @@ Hi! I'm Stephen Causey. Welcome
 
 Yep! It's a brand new blog. I will add posts/articles every chance I get along with some pics. 
 
-> “There comes a time when one must take a position that is neither safe, nor politic, nor popular, but he must take it because conscience tells him it is right.”
-― Martin Luther King Jr., A Testament of Hope: The Essential Writings and Speeches 
+
 
 ---
 ### Invite to Write
