@@ -15,7 +15,6 @@ weight: '20'
 
 Hi! I'm Stephen Causey. Welcome
 
-Yep! It's a brand new blog. I will add posts/articles every chance I get along with some pics. 
 
 
 
