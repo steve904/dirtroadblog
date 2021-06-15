@@ -13,7 +13,7 @@ weight: '20'
 
 <!--more-->
 
-Hi! I'm Stephen Causey. Welcome
+Hi! I'm Stephen Causey. Welcome to Dirt Road Blog. 
 
 
 
